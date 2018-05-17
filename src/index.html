@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equir='X-UA-compatible' content='IE=edge,chrome=1'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0,maximum-scale=1,user-scalable=no'>
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="wrap"></div>
+    <script id='tpl' type='text/x-handlebars-template'></script>
+    <script src='./js/libs/require.js' async=true defer></script>
+    <script src='./js/main.js'>
+        require(["./js/main"], function() {
+            require(["index"])
+        })
+    </script>
+</body>
+
+</html>
